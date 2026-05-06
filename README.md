@@ -11,13 +11,9 @@ The goal is to help businesses maximize ROI on marketing campaigns by identifyin
 
 
 Understand the relationship between marketing spend and sales
-
 Perform data cleaning and exploratory data analysis (EDA)
-
 Build a machine learning model to predict sales
-
 Evaluate model performance using key metrics
-
 Provide actionable business insights
 
 
@@ -28,11 +24,8 @@ dataset contains marketing spend across different channels and corresponding sal
 Features:
 
 TV – Advertising spend on TV
-
 Radio – Advertising spend on radio
-
 Newspaper – Advertising spend on newspaper
-
 Sales – Target variable (product sales)
 
 
@@ -40,13 +33,9 @@ Sales – Target variable (product sales)
 
 
 Key steps performed:
-
 Checked for missing values and duplicates
-
 Analyzed feature distributions
-
 Correlation analysis between marketing channels and sales
-
 Visualizations to identify trends and patterns
 
 
@@ -58,35 +47,26 @@ TV advertising showed the strongest correlation with sales, while newspaper had 
 ⚙️ Model Building
 
 Algorithm Used: Linear Regression
-
 Data split into training and testing sets
-
 Model trained to predict sales based on marketing spend
 
 
 📈 Model Evaluation
 
 Evaluation metrics used:
-
 Mean Absolute Error (MAE)
-
 Mean Squared Error (MSE)
-
 R² Score
 
 📌 The model demonstrates strong predictive capability, indicating that marketing spend is a reliable indicator of sales.
 
 
 💡 Business Insights
-
 📺 TV Ads drive the highest sales impact
-
 📻 Radio Ads contribute moderately
-
 📰 Newspaper Ads show minimal ROI
 
 👉 Businesses should prioritize TV and Radio channels for better returns.
-
 
 🛠️ Tech Stack
 Python
